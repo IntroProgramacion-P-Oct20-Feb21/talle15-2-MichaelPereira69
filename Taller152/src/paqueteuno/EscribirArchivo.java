@@ -15,8 +15,8 @@ import paquetetres.*;
 public class EscribirArchivo {
 
     public static void informacion(String infor) {
-
-        try {
+        
+         try {
             Formatter salida = new Formatter("data/informacion.txt");
             salida.format("%s\n", infor);
             salida.close();
@@ -28,5 +28,6 @@ public class EscribirArchivo {
         }
 
     }
+        
 
-}
+    }
